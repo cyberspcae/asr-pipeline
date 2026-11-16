@@ -1,0 +1,8 @@
+workspace/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# 本地配置可能含 API 密钥，不进版本库；仓库里只放 config.example.json 模板
+config.json

@@ -1,0 +1,16 @@
+{
+  "api_key": "",
+  "api_url": "https://api.siliconflow.cn/v1/audio/transcriptions",
+  "model": "XingChenAGI/XingChenASR-V3.2-Ultra",
+  "response_format": "json",
+  "sample_rate": 16000,
+  "channels": 1,
+  "preprocess_filter": "highpass=f=100,loudnorm=I=-20:TP=-2:LRA=7",
+  "seg_seconds": 60,
+  "snap_window_sec": 12,
+  "silence_db": -35,
+  "silence_min_dur": 0.45,
+  "min_seg_sec": 18,
+  "api_timeout_sec": 200,
+  "api_retries": 3
+}
